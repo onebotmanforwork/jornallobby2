@@ -1,0 +1,112 @@
+
+
+.fundo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.logo{ /*tamanho maximo do titulo e sua cor */
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    filter: invert(1);
+}
+
+header{
+    width: 100%;
+    margin: 0;
+    background-color: white;
+
+}
+
+.menu ul li {
+    display: inline-flexbox;
+    text-align: center;
+}
+
+
+
+.jornal{
+    color: #7ec5ff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.informacoes .descricao{ /*cor das letras e seus espaçamentos e tamanho da font */
+    width: 49%;
+    font-size: 24px;
+    color: #7ec5ff;
+    line-height: 30px;
+    margin-left: 30px;
+    font-family: fantasy;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.siteimg1, .siteimg2, .siteimg3, .siteimg4, .siteimg5, .siteimg6, .siteimg7{
+    width: 300px;
+    height: 306px;
+    border-radius: 10px;
+}
+
+.conteudo{ /* forma do texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.lista-de-sites{
+    display: inline-block;
+    margin-left: 55px;
+   
+    
+}
+
+
+button{
+    width: 600px;
+    height: 348px;
+    border-radius: 10px;
+    transform: scale(0.8);
+    animation: ease-in-out 0.5s;
+}
+
+button:hover{
+    transform: scale(1.0);
+    animation: ease-in-out 0.5s;
+    background-color: #7ce5ff;
+    cursor: pointer;
+
+}
+
+.sitetxt{
+    
+    margin-left: 30px;
+    font-size: 20px;
+    width: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.sitetxt6{
+    font-size: 25px;
+}
+
+
+
